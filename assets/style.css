@@ -21,27 +21,34 @@ html {
 /* Create a Parallax Effect */
 .bgimg-1,
 .bgimg-2,
-.bgimg-3 {
+.bgimg-3,
+.bgimg-4 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* Parallax Image */
 .bgimg-1 {
   background-image: url('../images/accueil/accueil.jpg');
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Parallax Image */
 .bgimg-2 {
+  background-image: url("../images/services/services-000.jpg");
+  min-height: 400px;
+}
+
+/* Parallax Image */
+.bgimg-3 {
   background-image: url("../images/galerie/galerie-000.jpg");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
-.bgimg-3 {
+/* Parallax Image */
+.bgimg-4 {
   background-image: url("../images/contact/contact-000.jpg");
   min-height: 400px;
 }
