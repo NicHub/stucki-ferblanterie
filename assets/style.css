@@ -831,3 +831,13 @@ html {
 .w3-margin-bottom {
   margin-bottom: 30px!important
 }
+
+.carousel-cell,
+.img-carousel {
+  height: 600px;
+}
+
+.img-carousel {
+  margin: 0 30px;
+  padding: 0 30px;
+}
